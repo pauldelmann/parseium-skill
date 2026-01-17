@@ -2,6 +2,9 @@
 name: parseium-skill
 description: Fetch structured data from social media and web platforms via Parseium APIs. Use when users want to extract profiles, posts, videos, comments, or other data from Instagram, TikTok, YouTube, Reddit, LinkedIn, Zillow, Indeed, or App Store.
 license: MIT
+metadata:
+  author: Parseium
+  website: https://www.parseium.com
 ---
 
 # Parseium API Guide for AI Agents
@@ -229,3 +232,10 @@ Some endpoints may take 5-15 seconds due to upstream fetching. This is normal fo
 - Transcript extraction (YouTube)
 
 Don't timeout requests prematurely. If building user-facing features, show a loading state.
+
+## Resources
+
+- [Parseium](https://www.parseium.com) - Main website
+- [API Directory](https://www.parseium.com/ready-to-use-apis) - Browse all available scraping APIs
+- [Get API Key](https://www.parseium.com/api-key) - Sign up and get your API key
+- [Blog](https://www.parseium.com/blog) - Tutorials and updates
